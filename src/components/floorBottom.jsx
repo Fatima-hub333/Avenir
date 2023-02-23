@@ -8,10 +8,8 @@ import LowerGround from '../svgs/lowerGround';
 import MFloor from '../svgs/mezzanine';
 import Mezzannine from '../svgs/mezzanine';
 
-const FloorBottom = ({floorData,setfloorData,MfloorHandler, SecondfloorHandler, OnefloorHandler, LgfloorHandler, GfloorHandler}) => {
-
-
-
+const FloorBottom = ({ floorData, setfloorData, MfloorHandler, SecondfloorHandler, OnefloorHandler, LgfloorHandler, GfloorHandler }) => {
+  
   return (<>
   {/*  */}
   <section className='w-full h-full   flex flex-row items-center justify-center   mb:flex-col-reverse     sm:flex-col-reverse sm:items-end   sm:justify-end mb:justify-end '>
